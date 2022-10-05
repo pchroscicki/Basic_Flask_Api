@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Quess the number</h1>
+        <form method="POST">
+            <la>Your bet:<input type="number" name="bet"></la>
+            <la><input type="hidden" name="target" value="{{ to_be_guessed }}"></la>
+            <input type="submit" value="OK">
+        </form>
+<h2>{{ result }}</h2>
+</body>
+</html>

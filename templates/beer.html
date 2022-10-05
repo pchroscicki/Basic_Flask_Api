@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Beer</title>
+</head>
+<body>
+<form method="POST">
+        <label>Provide the beer ID</label><input type="number" name="beer_ID"></label>
+        <input type="submit" value="ok">
+    </form>
+<h1>{{ beer_name }}</h1>
+<p> {{ beer_description }}</p>
+<img src="{{ url_to_beer_pic }}">
+</body>
+</html>
